@@ -15,7 +15,7 @@ title: ""
 ### Text-Video Retrieval
 - Focusing on understanding the limitations of text-video retrieval methods.
 - Introduced hubness mitigation strategies and developed systems that achieve leading results on benchmarks.
-- Collaborated with the Visual Geometry Group at the University of Oxford.
+- Collaborated with the [Visual Geometry Group](https://www.robots.ox.ac.uk/~vgg/) at the University of Oxford.
 
 ### Object Segmentation and Detection
 - Focused on unsupervised learning, more exactly transferring knowledge from video to images
