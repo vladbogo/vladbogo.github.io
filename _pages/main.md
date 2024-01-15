@@ -3,7 +3,7 @@ permalink: /
 title: ""
 ---
 
-**Short bio:** I am a Software Engineer at MariaDB Foundation and I am exploring AI fact-checking at [Filtir](http://filtir.com). I am interested in developing novel methods and tools for verifying the accuracy and reliability of information in the digital age.
+**Short bio:** I am a Software Engineer at the MariaDB Foundation and I am exploring AI fact-checking at [Filtir](http://filtir.com). I am interested in developing novel methods and tools for verifying the accuracy and reliability of information in the digital age.
 
 ## Research highlights
 
