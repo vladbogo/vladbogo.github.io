@@ -1,0 +1,42 @@
+<!-- start custom analytics snippet -->
+<script src="https://cdn.jsdelivr.net/npm/uuid@8.3.2/dist/umd/uuidv4.min.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-12K4TDV0SG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  // Disable use of cookies, using the instructions from:
+  // https://medium.com/swlh/how-to-use-google-tag-manager-and-google-analytics-without-cookies-7d041c73cc76
+
+  // defines window.localstorage key
+  const GA_LOCAL_STORAGE_KEY = 'ga:clientId'
+
+  // checks if localstorage is available
+  if (window.localStorage) {
+    // checks if user was already connected and loads client_id from localstorage
+    if (localStorage.getItem(GA_LOCAL_STORAGE_KEY)) {
+      // creates new tracker with same client_id as the last time the user visited
+      gtag('js', new Date())
+      gtag('config', 'G-12K4TDV0SG', {
+        send_page_view: true,
+        client_storage: 'none',
+        client_id: localStorage.getItem(GA_LOCAL_STORAGE_KEY),
+        anonymize_ip: true,
+      })
+    } else {
+      // creates client_id and saves it in localStorage -> currently random number better would be a uuid
+      window.localStorage.setItem(GA_LOCAL_STORAGE_KEY, uuidv4())
+      // creates new tracker with the new client_id
+      gtag('js', new Date())
+      gtag('config', 'G-12K4TDV0SG', {
+        send_page_view: true,
+        client_storage: 'none',
+        client_id: localStorage.getItem(GA_LOCAL_STORAGE_KEY),
+        anonymize_ip: true,
+      })
+    }
+  }
+</script>
+<!-- end custom analytics snippet -->
