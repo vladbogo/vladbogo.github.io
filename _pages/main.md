@@ -3,7 +3,7 @@ permalink: /
 title: ""
 ---
 
-**Short bio:** I am a Software Engineer at the MariaDB Foundation and I am exploring AI fact-checking at [Filtir](http://filtir.com). I am interested in developing novel methods and tools for verifying the accuracy and reliability of information in the digital age.
+**Short bio:** I am a Software Engineer at the [MariaDB Foundation](https://mariadb.org) and I am exploring AI fact-checking at [Filtir](http://filtir.com). I am interested in developing novel methods and tools for verifying the accuracy and reliability of information in the digital age.
 
 ## Research highlights
 
@@ -19,3 +19,9 @@ title: ""
 
 ### Object Segmentation and Detection
 - Focused on unsupervised learning, more exactly transferring knowledge from video to images
+
+## Engineering Highlights
+
+### MariaDB Testing Framework
+- Lead the creation of MariaDB's automated [testing framework](https://buildbot.mariadb.org).
+- It ensures compatibility and testing across multiple platforms and operating systems for the MariaDB Server.
