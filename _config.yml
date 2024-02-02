@@ -68,6 +68,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/vladbogo"
+    - label: "Substack"
+      icon: "fas fa-fw fa-link"
+      url: "https://vladbogo.substack.com"
 
 footer:
   links:
@@ -80,6 +83,10 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/vladbogo"
+    - label: "Substack"
+      icon: "fas fa-fw fa-link"
+      url: "https://vladbogo.substack.com"
+
 
 atom_feed:
   hide: true
