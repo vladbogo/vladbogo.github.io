@@ -54,7 +54,7 @@ plugins:
 author:
   name   : "Vlad Bogolin"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Exploring AI fact-checking @filtir.com &#124; Software Engineer & Researcher &#124; PhD in Computer Vision"
+  bio    : "Predicting the future @Mantic &#124; Software Engineer & Researcher &#124; PhD in Computer Vision"
   links:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-link"
